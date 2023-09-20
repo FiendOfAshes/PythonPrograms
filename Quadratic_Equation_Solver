@@ -1,0 +1,10 @@
+def quad(a, b, c):
+    if a < 0:
+      min = Math.abs(a)
+    return min
+    
+
+print(quad(-5))
+
+
+    

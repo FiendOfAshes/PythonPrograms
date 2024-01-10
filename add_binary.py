@@ -3,12 +3,12 @@
 # base case: if n is 0 return 0
 # var reminder = (n%10)*exp
 # return reminder + decimal(n//10, exp*10)
-def decimal(n, exp=1):
+def decimal(n, x=1):
     if n == 0:
         return n
     remainder = n%10  
-    remainder = remainder*exp 
-    return remainder + decimal(n//10, exp*2)
+    remainder = remainder*x 
+    return remainder + decimal(n//10, x*2)
 
 # Second step: converting decimal to binary
 def binary(x):

@@ -6,9 +6,8 @@ def quad_eq(a, b, c):
 
 print(quad_eq(2, 11, 5))
      
-#Things to consider
-#if one or both of the roots are imaginary numbers
-#a user interface
+#Things to consider:
+#if one or both of the roots are imaginary numbers, the program will fail
 
 
 
